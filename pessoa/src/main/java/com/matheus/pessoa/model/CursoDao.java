@@ -1,7 +1,7 @@
 package com.matheus.pessoa.model;
-
+ 
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.stereotype.Repository;
+import org.springframework.stereotype.Repository;;
 
 @Repository
 
@@ -12,6 +12,6 @@ import org.springframework.stereotype.Repository;
  * interface para as regras de negócio onde os objetos são 
  * acessados como em uma coleção*/
 
-public interface PessoaDao extends JpaRepository<Pessoa, Long>{
-	
+public interface CursoDao extends JpaRepository<Curso, Long> {
+
 }

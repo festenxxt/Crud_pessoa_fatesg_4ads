@@ -12,6 +12,6 @@ import org.springframework.stereotype.Repository;
  * interface para as regras de negócio onde os objetos são 
  * acessados como em uma coleção*/
 
-public interface PessoaDao extends JpaRepository<Pessoa, Long>{
-	
+public interface TurmaDao extends JpaRepository<Turma, Long> {
+
 }
